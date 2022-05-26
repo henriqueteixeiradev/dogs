@@ -12,4 +12,4 @@
   <img align="center" alt="Henri-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
   
-  <a href="[https://github.com/henriqueteixeiradev](https://dogs-psi.vercel.app/)">Vercel</a>
+  <a href="https://dogs-psi.vercel.app/">Vercel</a>
