@@ -1,13 +1,15 @@
 import { useState } from "react";
 
+// regex email /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/</>
+// regex password /^(?=.*\d)(?=.*[a-zA-Z]).{8,}$/
+
 const types = {
   email: {
-    regex:
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+    regex: /(?=.*[a-zA-Z])/,
     message: "Preencha um email válido",
   },
   password: {
-    regex: /^(?=.*\d)(?=.*[a-zA-Z]).{8,}$/,
+    regex: /(?=.*[a-zA-Z])/,
     message: "Deve conter no mínimo 8 caracteres e pelo menos 1 número",
   },
 };
